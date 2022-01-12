@@ -38,8 +38,23 @@
         android:text="@string/tvKQ" />
 
     <Button
-        android:id="@+id/btnplus"
+        android:id="@+id/btncong"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/plus" />
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trừ" />
+    <Button
+        android:id="@+id/btnnhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhân" />
+    <Button
+        android:id="@+id/btnchia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chia" />
 </LinearLayout>

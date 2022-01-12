@@ -9,8 +9,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnplus.setOnClickListener() {
+        btncong.setOnClickListener() {
             var kq: Double = (num1.text.toString()).toDouble() + num2.text.toString().toDouble();
+            tvKQ.text = kq.toString()
+        }
+        btntru.setOnClickListener() {
+            var kq: Double = (num1.text.toString()).toDouble() - num2.text.toString().toDouble();
+            tvKQ.text = kq.toString()
+        }
+        btnnhan.setOnClickListener() {
+            var kq: Double = (num1.text.toString()).toDouble() * num2.text.toString().toDouble();
+            tvKQ.text = kq.toString()
+        }
+        btnchia.setOnClickListener() {
+            var kq: Double = (num1.text.toString()).toDouble() / num2.text.toString().toDouble();
             tvKQ.text = kq.toString()
         }
     }
